@@ -1,6 +1,6 @@
 :root{
-    --azul:#1b08c4;
-    --preta:#151515;
+    --azul:#170b83;
+    --preta:rgb(83, 81, 81);
 }
 
 *{
@@ -33,8 +33,8 @@ header .logo{
 
 header nav a{
     text-decoration: none;
-    color:#aaa;
-    margin-right: 10px;
+    color:#ccc;
+    margin-right: 20px;
 }
 
 header nav a:hover{
@@ -75,6 +75,7 @@ header nav a:hover{
     background-color: rgba(0,0,0,.50);
     border: none;
     color: white;
+    border-radius: 10px;
 
     padding: 15px 30px;
     margin-right: 15px;
@@ -102,9 +103,10 @@ header nav a:hover{
 }
 
 .box-jogo{
-    height: 100px;
+    height: 130px;
     width: 100px;
     display: block;
+    border-radius: 10px;
     
 }
 /*FIM FILME PRINCIPAL*/
